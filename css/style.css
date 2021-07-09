@@ -7,7 +7,7 @@
 
 /* header */
 header{
-    /* height: 20px; */
+    height: 20px;
     background-color: #1a1a1a;
     display: flex;
     justify-content: space-between;
@@ -29,4 +29,34 @@ header{
 
 .fas fa-th{
     color: grey;
+}
+
+main{
+    display: flex;
+    /* flex-direction: column; */
+    height: calc(100vh - 20px);
+    background-color: red;
+
+}
+
+.main_middle{
+    display: flex;
+    border: 1px solid black;
+    background-color: pink;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: green;
+    flex-grow: 1;
+}
+
+.main_side{
+    display: flex;
+    border: 1px solid;
+    width: 20%;
 }
