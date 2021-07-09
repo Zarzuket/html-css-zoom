@@ -35,6 +35,7 @@ main{
     display: flex;
     /* flex-direction: column; */
     height: calc(100vh - 20px);
+    width: 100%;
     background-color: red;
 
 }
@@ -43,20 +44,20 @@ main{
     display: flex;
     border: 1px solid black;
     background-color: pink;
-    width: 60%;
+    width: 80%;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .square{
-    height: 150px;
-    width: 150px;
+    width: calc((100% / 5) - 2px);
     border: 1px solid black;
     background-color: green;
-    flex-grow: 1;
+    margin: 1px;
 }
 
 .main_side{
     display: flex;
     border: 1px solid;
-    width: 20%;
+    width: 10%;
 }
