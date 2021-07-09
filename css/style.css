@@ -6,4 +6,27 @@
 }
 
 /* header */
+header{
+    /* height: 20px; */
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    
+}
 
+.nav_left{
+    display: flex;
+}
+
+.fa-shield-virus{
+    color: green;
+    margin-right: 20px;
+}
+
+.fa-dot-circle{
+    color: grey;
+}
+
+.fas fa-th{
+    color: grey;
+}
